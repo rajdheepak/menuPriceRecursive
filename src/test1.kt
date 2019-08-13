@@ -26,7 +26,7 @@ fun sum_up_recursive(numbers: ArrayList<Int>, partial: ArrayList<Int>, combinati
 
     loop@ for (i in numbers.indices) {
         val remaining = ArrayList<Int>()
-g        for (j in i + 1 until numbers.size) {
+       for (j in i + 1 until numbers.size) {
             remaining.add(numbers[j])
         }
         val partial_rec = ArrayList(partial)
